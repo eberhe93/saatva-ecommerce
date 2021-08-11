@@ -5,7 +5,7 @@ import CartButton from '../../components/cartButton/cartButton';
 import MattressData from '../../modules/mattresses.json';
 
 function MattressView() {
-  const [productType, setProductType] = useState('classic');
+  const [productType, setProductType] = useState('loom');
   const [data, setData] = useState(MattressData.mattresses[productType]);
   const img = MattressData.mattresses[productType].name === data.name && `/images/${data.imageFileName}`;
 

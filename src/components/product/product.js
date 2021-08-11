@@ -19,7 +19,7 @@ export function ProductContainer(props){
 }
 
 export function ButtonSelect({handleType, data}){
-  const [activeClass, setActiveClass] = useState('classic');
+  const [activeClass, setActiveClass] = useState('loom');
 
   const handleActiveClass = (e) => {
     const dataType = e.target.dataset.type;
