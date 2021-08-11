@@ -1,0 +1,14 @@
+.button-cart {
+    width: 100%;
+    padding: 15px 0px;
+    margin-top: 80px;
+    cursor: pointer;
+    border: 0px;
+    background: #D4AA64;
+    color: white;
+    font-size: 1.2rem;
+    
+    @media only screen and (min-width: 200px) and (max-width: 768px){
+      margin-top: 50px;
+    }
+  }
